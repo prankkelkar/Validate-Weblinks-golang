@@ -1,7 +1,8 @@
-#### Validate weblinks.
+## Validate weblinks.
 
+[![Go](https://github.com/prankkelkar/Validate-Weblinks-golang/actions/workflows/go.yml/badge.svg)](https://github.com/prankkelkar/Validate-Weblinks-golang/actions/workflows/go.yml)
 
-## Description
+#### Description
 This repo validates weblinks at https://www.ibm.com/community/z/open-source-software/
 
 

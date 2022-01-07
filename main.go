@@ -21,11 +21,7 @@ func main() {
 		fmt.Println("error occurred : ", err)
 	}
 
-	fmt.Println("total links found:", len(links))
-
 	links = removeDuplicateValues(links)
-
-	fmt.Println("total links found:", len(links))
 
 	wg.Add(len(links))
 
@@ -34,7 +30,7 @@ func main() {
 	}
 
 	wg.Wait()
-
+	fmt.Println("total unique links found:", len(links))
 	fmt.Println("time taken:", time.Since(now))
 }
 
